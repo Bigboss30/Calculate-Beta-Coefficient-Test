@@ -1,0 +1,82 @@
+{
+  "_from": "compute-array-constructors@^1.0.0",
+  "_id": "compute-array-constructors@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-h+16ZZZo8yv0cM4hybsiSWSJJmU=",
+  "_location": "/compute-array-constructors",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "compute-array-constructors@^1.0.0",
+    "name": "compute-array-constructors",
+    "escapedName": "compute-array-constructors",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/compute-variance"
+  ],
+  "_resolved": "https://registry.npmjs.org/compute-array-constructors/-/compute-array-constructors-1.0.1.tgz",
+  "_shasum": "87ed7a659668f32bf470ce21c9bb224964892665",
+  "_spec": "compute-array-constructors@^1.0.0",
+  "_where": "E:\\TestBeta\\node_modules\\compute-variance",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dstructs/array-constructors/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Returns an array constructor corresponding to an array data type.",
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "homepage": "https://github.com/dstructs/array-constructors#readme",
+  "keywords": [
+    "compute.io",
+    "compute",
+    "computation",
+    "dstructs",
+    "constructor",
+    "typed-array",
+    "typed",
+    "array",
+    "ctor",
+    "dtype",
+    "data",
+    "type",
+    "util",
+    "utils",
+    "utility",
+    "utilities"
+  ],
+  "license": "MIT",
+  "main": "./lib",
+  "name": "compute-array-constructors",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dstructs/array-constructors.git"
+  },
+  "scripts": {
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov",
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec"
+  },
+  "version": "1.0.1"
+}

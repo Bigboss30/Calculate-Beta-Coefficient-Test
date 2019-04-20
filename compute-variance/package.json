@@ -1,0 +1,97 @@
+{
+  "_from": "compute-variance",
+  "_id": "compute-variance@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-uutUDY/HpI4rB2O7meTBQ3GGJkI=",
+  "_location": "/compute-variance",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "compute-variance",
+    "name": "compute-variance",
+    "escapedName": "compute-variance",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/compute-variance/-/compute-variance-3.0.0.tgz",
+  "_shasum": "baeb540d8fc7a48e2b0763bb99e4c14371862642",
+  "_spec": "compute-variance",
+  "_where": "E:\\TestBeta",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/compute-io/variance/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    },
+    {
+      "name": "Philipp Burckhardt",
+      "email": "pburckhardt@outlook.com"
+    }
+  ],
+  "dependencies": {
+    "compute-array-constructors": "^1.0.0",
+    "dstructs-matrix": "^2.0.0",
+    "validate.io-array-like": "^1.0.0",
+    "validate.io-boolean-primitive": "^1.0.0",
+    "validate.io-function": "^1.0.2",
+    "validate.io-matrix-like": "^1.0.2",
+    "validate.io-object": "^1.0.4",
+    "validate.io-positive-integer": "^1.0.0",
+    "validate.io-string-primitive": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Computes the variance.",
+  "devDependencies": {
+    "chai": "3.x.x",
+    "coveralls": "^2.11.1",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "2.x.x"
+  },
+  "homepage": "https://github.com/compute-io/variance#readme",
+  "keywords": [
+    "compute.io",
+    "compute",
+    "computation",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "variance",
+    "sample variance",
+    "stdev",
+    "spread",
+    "array",
+    "numeric array",
+    "population",
+    "matrix",
+    "accessor"
+  ],
+  "license": "MIT",
+  "main": "./lib",
+  "name": "compute-variance",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/compute-io/variance.git"
+  },
+  "scripts": {
+    "coveralls": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coveralls/coverage --report lcovonly -- -R spec && cat ./reports/coveralls/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./reports/coveralls",
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec"
+  },
+  "version": "3.0.0"
+}

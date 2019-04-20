@@ -1,0 +1,82 @@
+{
+  "_from": "compute-array-dtype@^1.0.0",
+  "_id": "compute-array-dtype@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-0EkmtoSQIkWQU5pK6BLxikmY2/M=",
+  "_location": "/compute-array-dtype",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "compute-array-dtype@^1.0.0",
+    "name": "compute-array-dtype",
+    "escapedName": "compute-array-dtype",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/compute-dtype"
+  ],
+  "_resolved": "https://registry.npmjs.org/compute-array-dtype/-/compute-array-dtype-1.0.1.tgz",
+  "_shasum": "d04926b68490224590539a4ae812f18a4998dbf3",
+  "_spec": "compute-array-dtype@^1.0.0",
+  "_where": "E:\\TestBeta\\node_modules\\compute-dtype",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dstructs/array-dtype/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Returns an array data type corresponding to an array constructor name.",
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "homepage": "https://github.com/dstructs/array-dtype#readme",
+  "keywords": [
+    "compute.io",
+    "compute",
+    "computation",
+    "dstructs",
+    "constructor",
+    "typed-array",
+    "typed",
+    "array",
+    "ctor",
+    "dtype",
+    "data",
+    "type",
+    "util",
+    "utils",
+    "utility",
+    "utilities"
+  ],
+  "license": "MIT",
+  "main": "./lib",
+  "name": "compute-array-dtype",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dstructs/array-dtype.git"
+  },
+  "scripts": {
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov",
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec"
+  },
+  "version": "1.0.1"
+}
